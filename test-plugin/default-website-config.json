@@ -1,0 +1,8 @@
+{
+  "articles": {
+    "query": "SELECT * FROM article"
+  },
+  "articles2": {
+    "query": "SELECT * FROM article WHERE author = 'Thomas'"
+  }
+}

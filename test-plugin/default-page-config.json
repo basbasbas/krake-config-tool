@@ -1,0 +1,40 @@
+{
+  "articles": {
+    "views": [{
+      "id": "articles",
+      "type": "ListView",
+      "amount": 3,
+      "sortBy": ["date", "ascending"],
+      "template": {
+        "title": "title",
+        "subtitle": null,
+        "content": "content"
+      }
+    }]
+  },
+  "articles2": {
+    "views": [{
+      "id": "articles",
+      "type": "ListView",
+      "amount": 1,
+      "sortBy": ["date", "ascending"],
+      "template": {
+        "title": "title",
+        "subtitle": null,
+        "content": "content"
+      }
+    }]
+  },
+  "articles3": {
+    "views": [{
+      "id": "articles2",
+      "type": "ListView",
+      "content_id":  2,
+      "template": {
+        "title": "title",
+        "subtitle": null,
+        "content": "content"
+      }
+    }]
+  }
+}
